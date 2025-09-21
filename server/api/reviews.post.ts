@@ -164,7 +164,7 @@ async function fetchIOSReviews(appId: string, limit: number = 50): Promise<Revie
     
     return reviews.slice(0, limit).map(review => ({
       rating: review.score,
-      date: review.date,
+      date: review.updated || review.date || new Date().toISOString(),
       title: review.title || '',
       content: review.text || '',
       sentiment: analyzeSentiment(review.text || ''),
@@ -188,7 +188,7 @@ async function fetchAndroidReviews(appId: string, limit: number = 50): Promise<R
     
     return reviews.data.map(review => ({
       rating: review.score,
-      date: review.date,
+      date: review.date || new Date().toISOString(),
       title: review.title || '',
       content: review.text || '',
       sentiment: analyzeSentiment(review.text || ''),
