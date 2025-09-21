@@ -314,7 +314,7 @@ onMounted(async () => {
     reviewData.value = data
   } catch (err) {
     console.error('Failed to fetch reviews:', err)
-    error.value = err.data?.message || 'Failed to load app reviews'
+    error.value = err.data?.statusMessage || err.data?.message || err.message || 'Failed to load app reviews. Please try again.'
   } finally {
     loading.value = false
   }

@@ -116,7 +116,7 @@ const handleSubmit = async () => {
     
   } catch (err) {
     console.error('Failed to fetch reviews:', err)
-    error.value = err.data?.message || 'Failed to fetch app reviews. Please try again.'
+    error.value = err.data?.statusMessage || err.data?.message || err.message || 'Failed to fetch app reviews. Please try again.'
   } finally {
     loading.value = false
   }

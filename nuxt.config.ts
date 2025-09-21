@@ -15,23 +15,6 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-09-21',
 
   nitro: {
-    preset: 'netlify',
-    experimental: {
-      wasm: true
-    }
-  },
-
-  // Performance optimizations
-  experimental: {
-    payloadExtraction: false
-  },
-
-  // Reduce build warnings and improve performance
-  vite: {
-    build: {
-      rollupOptions: {
-        external: ['fsevents']
-      }
-    }
+    preset: 'netlify'
   }
 })
