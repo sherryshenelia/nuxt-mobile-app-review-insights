@@ -57,7 +57,7 @@ For detailed technical documentation including:
 
 ## 🌐 Live Demo
 
-**Production**: [https://nuxt-mobile-app-review-insights.netlify.app](https://nuxt-mobile-app-review-insights.netlify.app)
+**Production**: [https://imaginative-meerkat-f44fa3.netlify.app](https://imaginative-meerkat-f44fa3.netlify.app)
 
 ## 🧪 Testing
 
@@ -105,7 +105,7 @@ curl -X POST http://localhost:3000/api/reviews \
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/sherryshenelia/nuxt-mobile-app-review-insights/issues)
 - 📚 **Docs**: [Complete Documentation](./PROJECT_DOCUMENTATION.md)
-- 🔗 **Live Demo**: [nuxt-mobile-app-review-insights.netlify.app](https://nuxt-mobile-app-review-insights.netlify.app)
+- 🔗 **Live Demo**: [imaginative-meerkat-f44fa3.netlify.app](https://imaginative-meerkat-f44fa3.netlify.app)
 
 ---
 

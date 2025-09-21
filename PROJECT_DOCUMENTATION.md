@@ -625,7 +625,7 @@ npm run build        # Build for production
 - **API**: Server-side functions run locally
 
 #### Production
-- **URL**: https://nuxt-mobile-app-review-insights.netlify.app
+- **URL**: https://imaginative-meerkat-f44fa3.netlify.app
 - **CDN**: Global content delivery
 - **Serverless**: API routes as Netlify Functions
 
