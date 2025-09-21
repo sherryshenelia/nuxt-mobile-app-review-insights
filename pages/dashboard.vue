@@ -278,11 +278,43 @@ const platformSplit = computed(() => {
 
 // Utility Functions
 const formatDate = (dateString) => {
-  return new Date(dateString).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  })
+  if (!dateString) return 'No date'
+  
+  try {
+    // Handle various date formats
+    let date
+    
+    // If it's already a Date object
+    if (dateString instanceof Date) {
+      date = dateString
+    }
+    // If it's a string, try to parse it
+    else if (typeof dateString === 'string') {
+      // Handle ISO date strings, timestamps, etc.
+      date = new Date(dateString)
+    }
+    // If it's a number (timestamp)
+    else if (typeof dateString === 'number') {
+      date = new Date(dateString)
+    }
+    else {
+      return 'Invalid date'
+    }
+    
+    // Check if the date is valid
+    if (isNaN(date.getTime())) {
+      return 'Invalid date'
+    }
+    
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
+    })
+  } catch (error) {
+    console.error('Date formatting error:', error, 'Input:', dateString)
+    return 'Invalid date'
+  }
 }
 
 const formatNumber = (num) => {
