@@ -9,13 +9,15 @@
               <span>←</span>
               <span class="font-medium">Back to Search</span>
             </NuxtLink>
-            <div class="h-6 w-px bg-gray-300"></div>
-            <h1 class="text-xl font-bold text-gray-900">
+          </div>
+          
+          <div class="flex-1 text-center">
+            <h1 class="text-3xl font-bold text-gray-900">
               {{ (appInfo?.searchTerm || 'App') + ' Mobile App Store Review Dashboard' }}
             </h1>
           </div>
           
-          <div v-if="appInfo?.foundApps" class="flex items-center space-x-2 text-sm text-gray-600">
+          <div v-if="appInfo?.foundApps" class="flex items-center space-x-2 text-sm text-gray-600 w-32 justify-end">
             <span>📱</span>
             <span>
               {{ appInfo.foundApps.ios ? 'iOS' : '' }}
