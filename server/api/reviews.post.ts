@@ -15,10 +15,20 @@ interface AppSearchResult {
   ios?: {
     id: string
     name: string
+    rating?: number
+    ratingCount?: number
+    icon?: string
+    developer?: string
+    price?: string
   }
   android?: {
     id: string
     name: string
+    rating?: number
+    ratingCount?: number
+    icon?: string
+    developer?: string
+    price?: string
   }
 }
 
@@ -50,9 +60,27 @@ async function findAppIds(appName: string): Promise<AppSearchResult> {
       )
       const selectedApp = exactMatch || iosResults[0]
       
-      result.ios = {
-        id: selectedApp.id.toString(),
-        name: selectedApp.title
+      // Get detailed app info
+      try {
+        const appDetails = await store.app({ id: selectedApp.id.toString() })
+        result.ios = {
+          id: selectedApp.id.toString(),
+          name: selectedApp.title,
+          rating: appDetails.score,
+          ratingCount: appDetails.reviews,
+          icon: selectedApp.icon,
+          developer: selectedApp.developer,
+          price: selectedApp.price || 'Free'
+        }
+      } catch (detailError) {
+        result.ios = {
+          id: selectedApp.id.toString(),
+          name: selectedApp.title,
+          rating: selectedApp.score,
+          icon: selectedApp.icon,
+          developer: selectedApp.developer,
+          price: selectedApp.price || 'Free'
+        }
       }
     }
   } catch (error) {
@@ -76,9 +104,27 @@ async function findAppIds(appName: string): Promise<AppSearchResult> {
       )
       const selectedApp = exactMatch || androidResults[0]
       
-      result.android = {
-        id: selectedApp.appId,
-        name: selectedApp.title
+      // Get detailed app info
+      try {
+        const appDetails = await gplay.app({ appId: selectedApp.appId })
+        result.android = {
+          id: selectedApp.appId,
+          name: selectedApp.title,
+          rating: appDetails.score,
+          ratingCount: appDetails.reviews,
+          icon: selectedApp.icon,
+          developer: selectedApp.developer,
+          price: selectedApp.priceText || 'Free'
+        }
+      } catch (detailError) {
+        result.android = {
+          id: selectedApp.appId,
+          name: selectedApp.title,
+          rating: selectedApp.score,
+          icon: selectedApp.icon,
+          developer: selectedApp.developer,
+          price: selectedApp.priceText || 'Free'
+        }
       }
     }
   } catch (error) {

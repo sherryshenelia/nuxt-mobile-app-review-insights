@@ -1,0 +1,32 @@
+
+> dev
+> nuxt dev
+
+[nuxi] Nuxt 4.1.2 with Nitro 2.12.6
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+[nuxt:tailwindcss] ℹ Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Option + D in the browser (v2.6.5)
+
+✔ Vite client built in 23ms
+✔ Vite server built in 24ms
+[nitro] ✔ Nuxt Nitro server built in 372ms
+ℹ Vite client warmed up in 1ms
+ℹ Vite server warmed up in 20ms
+WARN  [Vue Router warn]: No match found for location with path "/"
+WARN  [Vue Router warn]: No match found for location with path "/"
+WARN  [Vue Router warn]: No match found for location with path "/"
+WARN  [Vue Router warn]: No match found for location with path "/"
+WARN  [Vue Router warn]: No match found for location with path "/"
+WARN  [Vue Router warn]: No match found for location with path "/"
+ℹ nuxt.config.ts updated. Restarting Nuxt...
+  ➜ DevTools: press Shift + Option + D in the browser (v2.6.5)
+
+ℹ Re-optimizing dependencies because vite config has changed
+✔ Vite client built in 14ms
+✔ Vite server built in 18ms
+[nitro] ✔ Nuxt Nitro server built in 356ms
+ℹ Vite client warmed up in 1ms
+ℹ Vite server warmed up in 15ms
