@@ -1,6 +1,6 @@
 # Mobile App Review Insights Dashboard
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/nuxt-mobile-app-review-insights/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/imaginative-meerkat-f44fa3/deploy-status)](https://app.netlify.com/sites/imaginative-meerkat-f44fa3/deploys)
 
 A comprehensive web application that analyzes mobile app reviews from both iOS App Store and Google Play Store, providing detailed insights including sentiment analysis, rating distributions, and review analytics.
 
