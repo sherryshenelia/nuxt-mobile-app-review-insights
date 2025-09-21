@@ -27,7 +27,7 @@
       </div>
     </header>
 
-    <div class="container mx-auto px-4 py-8">
+    <div class="container mx-auto px-4 py-4">
       <!-- Loading State -->
       <div v-if="loading" class="flex items-center justify-center py-16">
         <div class="text-center">
@@ -109,68 +109,71 @@
           </div>
         </div>
 
-        <!-- Summary Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200 text-center">
-            <div class="text-2xl mb-2">📄</div>
-            <div class="text-2xl font-bold text-gray-900">{{ reviewData.totalReviews }}</div>
-            <div class="text-sm text-gray-600">Total Reviews</div>
+        <!-- Compact Summary Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+          <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
+            <div class="text-lg mb-1">📄</div>
+            <div class="text-lg font-bold text-gray-900">{{ reviewData.totalReviews }}</div>
+            <div class="text-xs text-gray-600">Reviews</div>
           </div>
 
-          <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200 text-center">
-            <div class="text-2xl mb-2">⭐</div>
-            <div class="text-2xl font-bold text-gray-900">{{ averageRating }}</div>
-            <div class="text-sm text-gray-600">Average Rating</div>
+          <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
+            <div class="text-lg mb-1">⭐</div>
+            <div class="text-lg font-bold text-gray-900">{{ averageRating }}</div>
+            <div class="text-xs text-gray-600">Avg Rating</div>
           </div>
 
-          <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200 text-center">
-            <div class="text-2xl mb-2">💚</div>
-            <div class="text-2xl font-bold text-gray-900">{{ sentimentPercentage.positive }}%</div>
-            <div class="text-sm text-gray-600">Positive Sentiment</div>
+          <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
+            <div class="text-lg mb-1">💚</div>
+            <div class="text-lg font-bold text-gray-900">{{ sentimentPercentage.positive }}%</div>
+            <div class="text-xs text-gray-600">Positive</div>
           </div>
 
-          <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200 text-center">
-            <div class="text-2xl mb-2">📱</div>
-            <div class="text-2xl font-bold text-gray-900">{{ platformSplit }}</div>
-            <div class="text-sm text-gray-600">iOS/Android Split</div>
+          <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
+            <div class="text-lg mb-1">📱</div>
+            <div class="text-lg font-bold text-gray-900">{{ platformSplit }}</div>
+            <div class="text-xs text-gray-600">iOS/Android</div>
           </div>
         </div>
 
-        <!-- Rating Distribution -->
-        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <h3 class="text-lg font-semibold text-gray-900 mb-4">Rating Distribution</h3>
-          <div class="space-y-3">
-            <div v-for="(count, rating) in reviewData.summary.ratingDistribution" :key="rating" class="flex items-center">
-              <span class="w-12 text-sm font-medium">{{ rating }} ⭐</span>
-              <div class="flex-1 bg-gray-200 rounded-full h-4 mx-3">
-                <div 
-                  class="bg-blue-600 h-4 rounded-full transition-all duration-500"
-                  :style="{ width: (count / reviewData.totalReviews * 100) + '%' }"
-                ></div>
+        <!-- Compact Charts Row -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+          <!-- Rating Distribution -->
+          <div class="bg-white rounded-lg shadow-sm p-4 border border-gray-200">
+            <h3 class="text-md font-semibold text-gray-900 mb-3">Rating Distribution</h3>
+            <div class="space-y-2">
+              <div v-for="(count, rating) in reviewData.summary.ratingDistribution" :key="rating" class="flex items-center">
+                <span class="w-8 text-xs font-medium">{{ rating }}⭐</span>
+                <div class="flex-1 bg-gray-200 rounded-full h-2 mx-2">
+                  <div 
+                    class="bg-blue-600 h-2 rounded-full transition-all duration-500"
+                    :style="{ width: (count / reviewData.totalReviews * 100) + '%' }"
+                  ></div>
+                </div>
+                <span class="w-8 text-xs text-gray-600">{{ count }}</span>
               </div>
-              <span class="w-12 text-sm text-gray-600">{{ count }}</span>
             </div>
           </div>
-        </div>
 
-        <!-- Sentiment Analysis -->
-        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <h3 class="text-lg font-semibold text-gray-900 mb-4">Sentiment Analysis</h3>
-          <div class="grid grid-cols-3 gap-4">
-            <div class="text-center">
-              <div class="text-3xl mb-2">😊</div>
-              <div class="text-xl font-bold text-green-600">{{ reviewData.summary.sentimentDistribution.positive }}</div>
-              <div class="text-sm text-gray-600">Positive</div>
-            </div>
-            <div class="text-center">
-              <div class="text-3xl mb-2">😐</div>
-              <div class="text-xl font-bold text-yellow-600">{{ reviewData.summary.sentimentDistribution.neutral }}</div>
-              <div class="text-sm text-gray-600">Neutral</div>
-            </div>
-            <div class="text-center">
-              <div class="text-3xl mb-2">😞</div>
-              <div class="text-xl font-bold text-red-600">{{ reviewData.summary.sentimentDistribution.negative }}</div>
-              <div class="text-sm text-gray-600">Negative</div>
+          <!-- Sentiment Analysis -->
+          <div class="bg-white rounded-lg shadow-sm p-4 border border-gray-200">
+            <h3 class="text-md font-semibold text-gray-900 mb-3">Sentiment Analysis</h3>
+            <div class="grid grid-cols-3 gap-2">
+              <div class="text-center">
+                <div class="text-xl mb-1">😊</div>
+                <div class="text-md font-bold text-green-600">{{ reviewData.summary.sentimentDistribution.positive }}</div>
+                <div class="text-xs text-gray-600">Positive</div>
+              </div>
+              <div class="text-center">
+                <div class="text-xl mb-1">😐</div>
+                <div class="text-md font-bold text-yellow-600">{{ reviewData.summary.sentimentDistribution.neutral }}</div>
+                <div class="text-xs text-gray-600">Neutral</div>
+              </div>
+              <div class="text-center">
+                <div class="text-xl mb-1">😞</div>
+                <div class="text-md font-bold text-red-600">{{ reviewData.summary.sentimentDistribution.negative }}</div>
+                <div class="text-xs text-gray-600">Negative</div>
+              </div>
             </div>
           </div>
         </div>
@@ -183,47 +186,46 @@
               <span class="text-sm font-normal text-gray-500">({{ reviewsCount }} total)</span>
             </h3>
           </div>
-          <div class="max-h-96 overflow-y-auto">
-            <div class="p-6 space-y-4">
+          <div class="max-h-screen overflow-y-auto">
+            <div class="p-4 space-y-3">
               <div
                 v-for="(review, index) in allReviews"
                 :key="index"
-                class="border border-gray-200 rounded-lg p-4 hover:shadow-sm transition-shadow"
+                class="border-l-4 pl-3 py-3 hover:bg-gray-50 transition-colors"
+                :class="{
+                  'border-green-400': review.sentiment === 'positive',
+                  'border-yellow-400': review.sentiment === 'neutral', 
+                  'border-red-400': review.sentiment === 'negative'
+                }"
               >
-              <div class="flex items-start justify-between mb-2">
-                <div class="flex items-center space-x-2">
-                  <div class="flex items-center">
-                    <span v-for="i in 5" :key="i" :class="i <= review.rating ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
+                <!-- Review Header -->
+                <div class="flex items-center justify-between mb-2">
+                  <div class="flex items-center space-x-2">
+                    <div class="flex items-center">
+                      <span v-for="i in 5" :key="i" :class="i <= review.rating ? 'text-yellow-400' : 'text-gray-300'" class="text-sm">⭐</span>
+                    </div>
+                    <span class="text-xs text-gray-500">{{ review.rating }}/5</span>
                   </div>
-                  <span class="text-sm text-gray-600">
-                    {{ formatDate(review.date) }}
-                  </span>
-                  <span
-                    :class="[
-                      'px-2 py-1 text-xs rounded-full',
-                      review.source === 'ios' ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'
-                    ]"
-                  >
-                    {{ review.source === 'ios' ? 'iOS' : 'Android' }}
-                  </span>
-                  <span
-                    :class="[
-                      'px-2 py-1 text-xs rounded-full',
-                      review.sentiment === 'positive' ? 'bg-green-100 text-green-800' :
-                      review.sentiment === 'negative' ? 'bg-red-100 text-red-800' :
-                      'bg-gray-100 text-gray-800'
-                    ]"
-                  >
-                    {{ review.sentiment }}
-                  </span>
+                  <div class="flex items-center space-x-1">
+                    <span class="text-xs text-gray-500">{{ formatDate(review.date) }}</span>
+                    <span
+                      :class="[
+                        'px-1.5 py-0.5 text-xs rounded-full font-medium',
+                        review.source === 'ios' ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'
+                      ]"
+                    >
+                      {{ review.source === 'ios' ? 'iOS' : 'Android' }}
+                    </span>
+                  </div>
                 </div>
-              </div>
-              
-              <h4 v-if="review.title" class="font-medium text-gray-900 mb-2">
-                {{ review.title }}
-              </h4>
-              
-                <p class="text-gray-700 text-sm leading-relaxed">
+                
+                <!-- Review Title -->
+                <h4 v-if="review.title" class="font-medium text-gray-900 mb-1 text-sm line-clamp-1">
+                  {{ review.title }}
+                </h4>
+                
+                <!-- Review Content -->
+                <p class="text-gray-700 text-sm leading-relaxed line-clamp-3">
                   {{ review.content }}
                 </p>
               </div>
