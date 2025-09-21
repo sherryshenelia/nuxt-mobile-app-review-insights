@@ -175,15 +175,21 @@
           </div>
         </div>
 
-        <!-- Recent Reviews -->
-        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <h3 class="text-lg font-semibold text-gray-900 mb-6">Recent Reviews</h3>
-          <div class="space-y-4">
-            <div
-              v-for="(review, index) in recentReviews"
-              :key="index"
-              class="border border-gray-200 rounded-lg p-4"
-            >
+        <!-- All Reviews (Scrollable) -->
+        <div class="bg-white rounded-lg shadow-md border border-gray-200">
+          <div class="p-6 border-b border-gray-200">
+            <h3 class="text-lg font-semibold text-gray-900 flex items-center justify-between">
+              <span>All Reviews</span>
+              <span class="text-sm font-normal text-gray-500">({{ allReviews.length }} total)</span>
+            </h3>
+          </div>
+          <div class="max-h-96 overflow-y-auto">
+            <div class="p-6 space-y-4">
+              <div
+                v-for="(review, index) in allReviews"
+                :key="index"
+                class="border border-gray-200 rounded-lg p-4 hover:shadow-sm transition-shadow"
+              >
               <div class="flex items-start justify-between mb-2">
                 <div class="flex items-center space-x-2">
                   <div class="flex items-center">
@@ -217,9 +223,10 @@
                 {{ review.title }}
               </h4>
               
-              <p class="text-gray-700 text-sm leading-relaxed">
-                {{ review.content }}
-              </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  {{ review.content }}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -235,7 +242,7 @@ const error = ref('')
 const reviewData = ref(null)
 
 const appInfo = computed(() => reviewData.value?.appInfo)
-const recentReviews = computed(() => reviewData.value?.reviews.slice(0, 5) || [])
+const allReviews = computed(() => reviewData.value?.reviews || [])
 
 // Get primary app info (prefer iOS, fallback to Android)
 const primaryAppInfo = computed(() => {
