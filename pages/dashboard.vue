@@ -13,7 +13,7 @@
           
           <div class="flex-1 text-center">
             <h1 class="text-3xl font-bold text-gray-900">
-              {{ (appInfo?.searchTerm || 'App') + ' Mobile App Store Review Dashboard' }}
+              {{ (appInfo?.searchTerm || 'App') + ' Review Dashboard' }}
             </h1>
           </div>
           
@@ -49,22 +49,22 @@
       </div>
 
       <!-- Dashboard Content -->
-      <div v-else-if="reviewData" class="space-y-8">
+      <div v-else-if="reviewData" class="space-y-6">
         <!-- App Info Card -->
-        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
-          <div class="flex items-center space-x-4">
+        <div class="bg-white rounded-lg shadow-md p-4 border border-gray-200">
+          <div class="flex items-center space-x-3">
             <!-- App Icon -->
             <div v-if="primaryAppInfo?.icon" class="flex-shrink-0">
-              <img :src="primaryAppInfo.icon" :alt="primaryAppInfo.name" class="w-20 h-20 rounded-xl shadow-md">
+              <img :src="primaryAppInfo.icon" :alt="primaryAppInfo.name" class="w-16 h-16 rounded-xl shadow-md">
             </div>
-            <div v-else class="flex-shrink-0 w-20 h-20 bg-gray-200 rounded-xl flex items-center justify-center">
-              <span class="text-3xl">📱</span>
+            <div v-else class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded-xl flex items-center justify-center">
+              <span class="text-2xl">📱</span>
             </div>
             
             <!-- App Details -->
             <div class="flex-1">
-              <h2 class="text-2xl font-bold text-gray-900 mb-1">{{ primaryAppInfo?.name || appInfo?.searchTerm }}</h2>
-              <p v-if="primaryAppInfo?.developer" class="text-gray-600 mb-2">by {{ primaryAppInfo.developer }}</p>
+              <h2 class="text-xl font-bold text-gray-900 mb-1">{{ primaryAppInfo?.name || appInfo?.searchTerm }}</h2>
+              <p v-if="primaryAppInfo?.developer" class="text-gray-600 mb-1 text-sm">by {{ primaryAppInfo.developer }}</p>
               
               <!-- Ratings -->
               <div class="space-y-3">
@@ -90,11 +90,6 @@
                     <span class="font-semibold text-lg">{{ appInfo.foundApps.android.rating.toFixed(1) }}</span>
                     <span v-if="appInfo.foundApps.android.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(appInfo.foundApps.android.ratingCount) }})</span>
                   </div>
-                </div>
-                
-                <!-- Price -->
-                <div v-if="primaryAppInfo?.price" class="flex items-center">
-                  <span class="text-green-600 font-medium">{{ primaryAppInfo.price }}</span>
                 </div>
               </div>
             </div>
