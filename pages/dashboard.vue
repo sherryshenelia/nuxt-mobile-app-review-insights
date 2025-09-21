@@ -180,7 +180,7 @@
           <div class="p-6 border-b border-gray-200">
             <h3 class="text-lg font-semibold text-gray-900 flex items-center justify-between">
               <span>All Reviews</span>
-              <span class="text-sm font-normal text-gray-500">({{ allReviews.length }} total)</span>
+              <span class="text-sm font-normal text-gray-500">({{ reviewsCount }} total)</span>
             </h3>
           </div>
           <div class="max-h-96 overflow-y-auto">
@@ -241,8 +241,10 @@ const loading = ref(true)
 const error = ref('')
 const reviewData = ref(null)
 
+// Memoized computed properties to reduce re-calculations
 const appInfo = computed(() => reviewData.value?.appInfo)
 const allReviews = computed(() => reviewData.value?.reviews || [])
+const reviewsCount = computed(() => allReviews.value.length)
 
 // Get primary app info (prefer iOS, fallback to Android)
 const primaryAppInfo = computed(() => {

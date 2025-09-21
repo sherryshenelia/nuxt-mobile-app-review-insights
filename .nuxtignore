@@ -1,0 +1,15 @@
+# Ignore files to improve build performance
+node_modules/
+.git/
+.vscode/
+.idea/
+*.log
+.DS_Store
+dist/
+.output/
+.nuxt/
+coverage/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts

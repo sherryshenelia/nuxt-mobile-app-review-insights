@@ -2,6 +2,25 @@ import gplay from 'google-play-scraper'
 import store from 'app-store-scraper'
 import Sentiment from 'sentiment'
 
+// Simple in-memory cache with TTL
+const cache = new Map()
+const CACHE_TTL = 5 * 60 * 1000 // 5 minutes
+
+function getCachedData(key: string) {
+  const cached = cache.get(key)
+  if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
+    return cached.data
+  }
+  return null
+}
+
+function setCachedData(key: string, data: any) {
+  cache.set(key, {
+    data,
+    timestamp: Date.now()
+  })
+}
+
 interface ReviewData {
   rating: number
   date: string
@@ -193,8 +212,18 @@ export default defineEventHandler(async (event) => {
       })
     }
     
+    const trimmedAppName = appName.trim()
+    const cacheKey = `reviews_${trimmedAppName.toLowerCase().replace(/\s+/g, '_')}`
+    
+    // Check cache first
+    const cachedResult = getCachedData(cacheKey)
+    if (cachedResult) {
+      console.log('Returning cached data for:', trimmedAppName)
+      return cachedResult
+    }
+    
     // Find app IDs for both platforms
-    const appIds = await findAppIds(appName.trim())
+    const appIds = await findAppIds(trimmedAppName)
     
     if (!appIds.ios && !appIds.android) {
       throw createError({
@@ -223,10 +252,10 @@ export default defineEventHandler(async (event) => {
     // Limit to ~100 total reviews
     const limitedReviews = allReviews.slice(0, 100)
     
-    return {
+    const result = {
       success: true,
       appInfo: {
-        searchTerm: appName,
+        searchTerm: trimmedAppName,
         foundApps: appIds
       },
       reviews: limitedReviews,
@@ -248,6 +277,12 @@ export default defineEventHandler(async (event) => {
         }
       }
     }
+    
+    // Cache the result
+    setCachedData(cacheKey, result)
+    console.log('Cached new data for:', trimmedAppName)
+    
+    return result
   } catch (error: any) {
     console.error('API Error:', error)
     
