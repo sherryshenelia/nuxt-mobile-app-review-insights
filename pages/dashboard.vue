@@ -111,7 +111,7 @@
           <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
             <div class="text-lg mb-1">📄</div>
             <div class="text-lg font-bold text-gray-900">{{ reviewData.totalReviews }}</div>
-            <div class="text-xs text-gray-600">Reviews</div>
+            <div class="text-xs text-gray-600">Most Recent</div>
           </div>
 
           <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
@@ -178,10 +178,10 @@
         <!-- All Reviews (Scrollable) -->
         <div class="bg-white rounded-lg shadow-md border border-gray-200">
           <div class="p-6 border-b border-gray-200">
-            <h3 class="text-lg font-semibold text-gray-900 flex items-center justify-between">
-              <span>All Reviews</span>
-              <span class="text-sm font-normal text-gray-500">({{ reviewsCount }} total)</span>
-            </h3>
+        <h3 class="text-lg font-semibold text-gray-900 flex items-center justify-between">
+          <span>All Reviews - Most Recent</span>
+          <span class="text-sm font-normal text-gray-500">({{ reviewsCount }} Most Recent Reviews)</span>
+        </h3>
           </div>
           <div class="max-h-screen overflow-y-auto">
             <div class="p-4 space-y-3">

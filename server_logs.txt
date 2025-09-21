@@ -1534,3 +1534,988 @@ Returning cached data for: United Airlines
  WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 59 times)
 
 ℹ hmr update /pages/dashboard.vue, /node_modules/tailwindcss/tailwind.css, /node_modules/tailwindcss/tailwind.css?direct
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 91 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 11 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 80 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+Returning cached data for: United Airlines
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 94 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 23 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 67 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+Returning cached data for: United Airlines
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 110 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 89 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 70 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 45 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 67 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 116 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 44 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 42 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 4 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 65 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 46 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 66 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 2 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+Cached new data for: Paylocity
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 97 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 64 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 43 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+Returning cached data for: Paylocity
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 7 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 67 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 47 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 67 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 2 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 100 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 114 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 84 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 45 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 74 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 3 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 104 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 66 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 50 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 121 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 10 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 82 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 38 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 33 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 22 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 68 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 52 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 119 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 17 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 83 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 4 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 79 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 32 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 57 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 57 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at '/Users/sherryshen/Desktop/AICodingProject/nuxt-mobile-app-review-insights/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
