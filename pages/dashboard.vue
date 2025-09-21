@@ -65,17 +65,34 @@
               <p v-if="primaryAppInfo?.developer" class="text-gray-600 mb-2">by {{ primaryAppInfo.developer }}</p>
               
               <!-- Ratings -->
-              <div class="flex items-center space-x-6">
-                <div v-if="primaryAppInfo?.rating" class="flex items-center space-x-2">
-                  <div class="flex items-center">
-                    <span v-for="i in 5" :key="i" :class="i <= Math.round(primaryAppInfo.rating) ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
+              <div class="space-y-3">
+                <!-- iOS Rating -->
+                <div v-if="appInfo?.foundApps?.ios?.rating" class="flex items-center space-x-3">
+                  <div class="flex items-center space-x-1">
+                    <span class="text-sm font-medium text-blue-600 w-12">iOS</span>
+                    <div class="flex items-center">
+                      <span v-for="i in 5" :key="i" :class="i <= Math.round(appInfo.foundApps.ios.rating) ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
+                    </div>
+                    <span class="font-semibold text-lg">{{ appInfo.foundApps.ios.rating.toFixed(1) }}</span>
+                    <span v-if="appInfo.foundApps.ios.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(appInfo.foundApps.ios.ratingCount) }})</span>
                   </div>
-                  <span class="font-semibold text-lg">{{ primaryAppInfo.rating.toFixed(1) }}</span>
-                  <span v-if="primaryAppInfo.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(primaryAppInfo.ratingCount) }} reviews)</span>
                 </div>
                 
-                <div v-if="primaryAppInfo?.price" class="text-green-600 font-medium">
-                  {{ primaryAppInfo.price }}
+                <!-- Android Rating -->
+                <div v-if="appInfo?.foundApps?.android?.rating" class="flex items-center space-x-3">
+                  <div class="flex items-center space-x-1">
+                    <span class="text-sm font-medium text-green-600 w-12">Android</span>
+                    <div class="flex items-center">
+                      <span v-for="i in 5" :key="i" :class="i <= Math.round(appInfo.foundApps.android.rating) ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
+                    </div>
+                    <span class="font-semibold text-lg">{{ appInfo.foundApps.android.rating.toFixed(1) }}</span>
+                    <span v-if="appInfo.foundApps.android.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(appInfo.foundApps.android.ratingCount) }})</span>
+                  </div>
+                </div>
+                
+                <!-- Price -->
+                <div v-if="primaryAppInfo?.price" class="flex items-center">
+                  <span class="text-green-600 font-medium">{{ primaryAppInfo.price }}</span>
                 </div>
               </div>
             </div>
