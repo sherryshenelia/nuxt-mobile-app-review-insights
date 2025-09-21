@@ -7,10 +7,9 @@
           <div class="w-16 h-16 text-blue-600 mx-auto mb-4 flex items-center justify-center text-4xl">
             📱
           </div>
-          <h1 class="text-4xl font-bold text-gray-900 mb-2">
-            Mobile App Review Insights
+          <h1 class="text-4xl font-bold text-gray-900 mb-4">
+            MobileAppReviewInsightsMobileAppStoreReviewDashboard
           </h1>
-          <p class="text-lg text-gray-500 mb-4">Mobile app store review dashboard</p>
           <p class="text-xl text-gray-600">
             Get comprehensive analytics and sentiment analysis from iOS App Store and Google Play reviews
           </p>

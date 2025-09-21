@@ -10,12 +10,9 @@
               <span class="font-medium">Back to Search</span>
             </NuxtLink>
             <div class="h-6 w-px bg-gray-300"></div>
-            <div class="flex flex-col">
-              <h1 class="text-xl font-bold text-gray-900">
-                {{ appInfo?.searchTerm || 'App Insights' }}
-              </h1>
-              <p class="text-sm text-gray-500 -mt-1">Mobile app store review dashboard</p>
-            </div>
+            <h1 class="text-xl font-bold text-gray-900">
+              {{ (appInfo?.searchTerm || 'App') + 'MobileAppStoreReviewDashboard' }}
+            </h1>
           </div>
           
           <div v-if="appInfo?.foundApps" class="flex items-center space-x-2 text-sm text-gray-600">
