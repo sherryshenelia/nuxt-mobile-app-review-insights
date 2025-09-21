@@ -2,8 +2,8 @@
   # Build command
   command = "npm run build"
   
-  # Publish directory (where the built files are)
-  publish = ".output/public"
+  # Publish directory (where the built files are) - Netlify preset uses dist/
+  publish = "dist"
   
   # Node.js version and environment variables
   environment = { NODE_VERSION = "20", NODE_ENV = "production" }
