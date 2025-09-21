@@ -9,8 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/icon'
   ],
   
-  css: ['~/assets/css/main.css'],
-  
   runtimeConfig: {
     // Private keys (only available on server-side)
     // Public keys that are exposed to client-side
