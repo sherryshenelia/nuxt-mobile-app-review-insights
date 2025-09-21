@@ -11,7 +11,7 @@
             </NuxtLink>
             <div class="h-6 w-px bg-gray-300"></div>
             <h1 class="text-xl font-bold text-gray-900">
-              {{ (appInfo?.searchTerm || 'App') + 'MobileAppStoreReviewDashboard' }}
+              {{ (appInfo?.searchTerm || 'App') + ' Mobile App Store Review Dashboard' }}
             </h1>
           </div>
           
