@@ -13,7 +13,7 @@
           
           <div class="flex-1 text-center">
             <h1 class="text-3xl font-bold text-gray-900">
-              {{ (appInfo?.searchTerm || 'App') + ' Review Dashboard' }}
+              {{ (appInfo?.searchTerm || 'App') + ' App Review Dashboard' }}
             </h1>
           </div>
           

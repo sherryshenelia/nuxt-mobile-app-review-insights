@@ -4,11 +4,8 @@
       <div class="max-w-2xl mx-auto text-center">
         <!-- Header -->
         <div class="mb-12">
-          <div class="w-16 h-16 text-blue-600 mx-auto mb-4 flex items-center justify-center text-4xl">
-            📱
-          </div>
           <h1 class="text-4xl font-bold text-gray-900 mb-4">
-            App Review Insights Dashboard
+            Mobile App Review Insights Dashboard
           </h1>
           <p class="text-xl text-gray-600">
             Get comprehensive analytics and sentiment analysis from iOS App Store and Google Play reviews
