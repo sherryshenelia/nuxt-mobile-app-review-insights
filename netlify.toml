@@ -5,12 +5,8 @@
   # Publish directory (where the built files are)
   publish = ".output/public"
   
-  # Node.js version
-  environment = { NODE_VERSION = "20" }
-
-[build.environment]
-  # Environment variables for build
-  NODE_ENV = "production"
+  # Node.js version and environment variables
+  environment = { NODE_VERSION = "20", NODE_ENV = "production" }
 
 # Redirect rules for SPA routing
 [[redirects]]
