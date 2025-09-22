@@ -72,9 +72,7 @@
                 <div v-if="appInfo?.foundApps?.ios?.rating" class="flex items-center space-x-3">
                   <div class="flex items-center space-x-1">
                     <span class="text-sm font-medium text-blue-600 w-12">iOS</span>
-                    <div class="flex items-center">
-                      <span v-for="i in 5" :key="i" :class="i <= Math.round(appInfo.foundApps.ios.rating) ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
-                    </div>
+                    <div class="flex items-center" v-html="generateStarHTML(appInfo.foundApps.ios.rating)"></div>
                     <span class="font-semibold text-lg">{{ appInfo.foundApps.ios.rating.toFixed(1) }}</span>
                     <span v-if="appInfo.foundApps.ios.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(appInfo.foundApps.ios.ratingCount) }})</span>
                   </div>
@@ -84,9 +82,7 @@
                 <div v-if="appInfo?.foundApps?.android?.rating" class="flex items-center space-x-3">
                   <div class="flex items-center space-x-1">
                     <span class="text-sm font-medium text-green-600 w-12">Android</span>
-                    <div class="flex items-center">
-                      <span v-for="i in 5" :key="i" :class="i <= Math.round(appInfo.foundApps.android.rating) ? 'text-yellow-400' : 'text-gray-300'">⭐</span>
-                    </div>
+                    <div class="flex items-center" v-html="generateStarHTML(appInfo.foundApps.android.rating)"></div>
                     <span class="font-semibold text-lg">{{ appInfo.foundApps.android.rating.toFixed(1) }}</span>
                     <span v-if="appInfo.foundApps.android.ratingCount" class="text-gray-500 text-sm">({{ formatNumber(appInfo.foundApps.android.ratingCount) }})</span>
                   </div>
@@ -115,7 +111,7 @@
           </div>
 
           <div class="bg-white rounded-lg shadow-sm p-3 border border-gray-200 text-center">
-            <div class="text-lg mb-1">⭐</div>
+            <div class="text-lg mb-1 flex justify-center" v-html="generateStarHTML(parseFloat(averageRating))"></div>
             <div class="text-lg font-bold text-gray-900">{{ averageRating }}</div>
             <div class="text-xs text-gray-600">Avg Rating</div>
           </div>
@@ -198,9 +194,7 @@
                 <!-- Review Header -->
                 <div class="flex items-center justify-between mb-2">
                   <div class="flex items-center space-x-2">
-                    <div class="flex items-center">
-                      <span v-for="i in 5" :key="i" :class="i <= review.rating ? 'text-yellow-400' : 'text-gray-300'" class="text-sm">⭐</span>
-                    </div>
+                    <div class="flex items-center" v-html="generateStarHTML(review.rating)"></div>
                     <span class="text-xs text-gray-500">{{ review.rating }}/5</span>
                   </div>
                   <div class="flex items-center space-x-1">
@@ -324,6 +318,25 @@ const formatNumber = (num) => {
     return (num / 1000).toFixed(1) + 'K'
   }
   return num.toString()
+}
+
+const generateStarHTML = (rating) => {
+  let html = ''
+  for (let i = 1; i <= 5; i++) {
+    const diff = rating - (i - 1)
+    
+    if (diff >= 1) {
+      // Full star
+      html += `<span style="color: #facc15; font-size: 0.875rem;">★</span>`
+    } else if (diff >= 0.5) {
+      // Half star
+      html += `<span style="color: #facc15; font-size: 0.875rem;">☆</span>`
+    } else {
+      // Empty star
+      html += `<span style="color: #d1d5db; font-size: 0.875rem;">☆</span>`
+    }
+  }
+  return html
 }
 
 // Load data on mount

@@ -16,5 +16,10 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'netlify'
+  },
+
+  // Suppress manifest-route-rule middleware warnings
+  experimental: {
+    payloadExtraction: false
   }
 })

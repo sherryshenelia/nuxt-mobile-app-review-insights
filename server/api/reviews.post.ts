@@ -53,7 +53,17 @@ interface AppSearchResult {
 
 const sentiment = new Sentiment()
 
-function analyzeSentiment(text: string): 'positive' | 'neutral' | 'negative' {
+function analyzeSentiment(text: string, rating?: number): 'positive' | 'neutral' | 'negative' {
+  // Simplified logic: primarily use star rating for consistent results
+  if (rating) {
+    if (rating >= 4) return 'positive'    // 4-5 stars = positive (green)
+    if (rating <= 2) return 'negative'    // 1-2 stars = negative (red)
+    return 'neutral'                      // 3 stars = neutral (yellow)
+  }
+  
+  // Fallback to text analysis only if no rating
+  if (!text || text.length < 3) return 'neutral'
+  
   const result = sentiment.analyze(text)
   if (result.score > 1) return 'positive'
   if (result.score < -1) return 'negative'
@@ -167,7 +177,7 @@ async function fetchIOSReviews(appId: string, limit: number = 50): Promise<Revie
       date: review.updated || review.date || new Date().toISOString(),
       title: review.title || '',
       content: review.text || '',
-      sentiment: analyzeSentiment(review.text || ''),
+      sentiment: analyzeSentiment(review.text || '', review.score),
       source: 'ios' as const
     }))
   } catch (error) {
@@ -191,7 +201,7 @@ async function fetchAndroidReviews(appId: string, limit: number = 50): Promise<R
       date: review.date || new Date().toISOString(),
       title: review.title || '',
       content: review.text || '',
-      sentiment: analyzeSentiment(review.text || ''),
+      sentiment: analyzeSentiment(review.text || '', review.score),
       source: 'android' as const
     }))
   } catch (error) {
@@ -232,15 +242,15 @@ export default defineEventHandler(async (event) => {
       })
     }
     
-    // Fetch reviews from both platforms
+    // Fetch reviews from both platforms (reduced limit for better performance)
     const reviewPromises: Promise<ReviewData[]>[] = []
     
     if (appIds.ios) {
-      reviewPromises.push(fetchIOSReviews(appIds.ios.id))
+      reviewPromises.push(fetchIOSReviews(appIds.ios.id, 50)) // Increased to 50 for 100 total
     }
     
     if (appIds.android) {
-      reviewPromises.push(fetchAndroidReviews(appIds.android.id))
+      reviewPromises.push(fetchAndroidReviews(appIds.android.id, 50)) // Increased to 50 for 100 total
     }
     
     const reviewResults = await Promise.all(reviewPromises)
@@ -249,8 +259,29 @@ export default defineEventHandler(async (event) => {
     // Sort by date (most recent first)
     allReviews.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     
-    // Limit to ~100 total reviews
+    // Limit to 100 total reviews for better performance
     const limitedReviews = allReviews.slice(0, 100)
+    
+    // Calculate summary statistics in a single pass (much faster)
+    const summary = {
+      ios: 0,
+      android: 0,
+      sentimentDistribution: { positive: 0, neutral: 0, negative: 0 },
+      ratingDistribution: { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0 }
+    }
+    
+    // Single loop instead of multiple filters
+    limitedReviews.forEach(review => {
+      // Count platform
+      if (review.source === 'ios') summary.ios++
+      else summary.android++
+      
+      // Count sentiment
+      summary.sentimentDistribution[review.sentiment]++
+      
+      // Count rating
+      summary.ratingDistribution[review.rating]++
+    })
     
     const result = {
       success: true,
@@ -260,22 +291,7 @@ export default defineEventHandler(async (event) => {
       },
       reviews: limitedReviews,
       totalReviews: limitedReviews.length,
-      summary: {
-        ios: limitedReviews.filter(r => r.source === 'ios').length,
-        android: limitedReviews.filter(r => r.source === 'android').length,
-        sentimentDistribution: {
-          positive: limitedReviews.filter(r => r.sentiment === 'positive').length,
-          neutral: limitedReviews.filter(r => r.sentiment === 'neutral').length,
-          negative: limitedReviews.filter(r => r.sentiment === 'negative').length
-        },
-        ratingDistribution: {
-          5: limitedReviews.filter(r => r.rating === 5).length,
-          4: limitedReviews.filter(r => r.rating === 4).length,
-          3: limitedReviews.filter(r => r.rating === 3).length,
-          2: limitedReviews.filter(r => r.rating === 2).length,
-          1: limitedReviews.filter(r => r.rating === 1).length
-        }
-      }
+      summary
     }
     
     // Cache the result
