@@ -4,7 +4,7 @@ import Sentiment from 'sentiment'
 
 // Simple in-memory cache with TTL
 const cache = new Map()
-const CACHE_TTL = 5 * 60 * 1000 // 5 minutes
+const CACHE_TTL = 24 * 60 * 60 * 1000 // 1 day (24 hours)
 
 function getCachedData(key: string) {
   const cached = cache.get(key)
