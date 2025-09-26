@@ -1,10 +1,11 @@
 import gplay from 'google-play-scraper'
 import store from 'app-store-scraper'
 import Sentiment from 'sentiment'
+import { appConfig } from '../../config/app.config'
 
 // Simple in-memory cache with TTL
 const cache = new Map()
-const CACHE_TTL = 24 * 60 * 60 * 1000 // 1 day (24 hours)
+const CACHE_TTL = appConfig.cache.ttl
 
 function getCachedData(key: string) {
   const cached = cache.get(key)
@@ -78,7 +79,7 @@ async function findAppIds(appName: string): Promise<AppSearchResult> {
     const iosResults = await store.search({
       term: appName,
       num: 5,
-      country: 'us'
+      country: appConfig.api.scraping.country
     })
     
     if (iosResults && iosResults.length > 0) {
@@ -121,7 +122,7 @@ async function findAppIds(appName: string): Promise<AppSearchResult> {
     const androidResults = await gplay.search({
       term: appName,
       num: 5,
-      country: 'us',
+      country: appConfig.api.scraping.country,
       lang: 'en'
     })
     
@@ -169,7 +170,7 @@ async function fetchIOSReviews(appId: string, limit: number = 50): Promise<Revie
       id: appId,
       sort: store.sort.RECENT,
       page: 1,
-      country: 'us'
+      country: appConfig.api.scraping.country
     })
     
     return reviews.slice(0, limit).map(review => ({
@@ -192,7 +193,7 @@ async function fetchAndroidReviews(appId: string, limit: number = 50): Promise<R
       appId,
       sort: gplay.sort.NEWEST,
       num: limit,
-      country: 'us',
+      country: appConfig.api.scraping.country,
       lang: 'en'
     })
     
@@ -246,11 +247,11 @@ export default defineEventHandler(async (event) => {
     const reviewPromises: Promise<ReviewData[]>[] = []
     
     if (appIds.ios) {
-      reviewPromises.push(fetchIOSReviews(appIds.ios.id, 50)) // Increased to 50 for 100 total
+      reviewPromises.push(fetchIOSReviews(appIds.ios.id, appConfig.api.limits.iosReviews))
     }
     
     if (appIds.android) {
-      reviewPromises.push(fetchAndroidReviews(appIds.android.id, 50)) // Increased to 50 for 100 total
+      reviewPromises.push(fetchAndroidReviews(appIds.android.id, appConfig.api.limits.androidReviews))
     }
     
     const reviewResults = await Promise.all(reviewPromises)
@@ -259,8 +260,8 @@ export default defineEventHandler(async (event) => {
     // Sort by date (most recent first)
     allReviews.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     
-    // Limit to 100 total reviews for better performance
-    const limitedReviews = allReviews.slice(0, 100)
+    // Limit total reviews based on configuration
+    const limitedReviews = allReviews.slice(0, appConfig.api.limits.maxReviews)
     
     // Calculate summary statistics in a single pass (much faster)
     const summary = {
