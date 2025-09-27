@@ -12,7 +12,11 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:contract": "vitest run tests/api/"
+    "test:contract": "vitest run tests/api/",
+    "test:mock": "vitest run tests/api/mock-simple.test.js --config=vitest.config.simple.js",
+    "test:mock-advanced": "vitest run tests/api/mock-api.test.ts tests/components/dashboard-mock.test.ts",
+    "test:components": "vitest run tests/components/",
+    "test:watch": "vitest --watch"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
@@ -34,6 +38,11 @@
     "@vitest/ui": "^2.1.5",
     "@vitest/coverage-v8": "^2.1.5",
     "vitest": "^2.1.5",
-    "@types/node": "^22.10.2"
+    "@types/node": "^22.10.2",
+    "msw": "^2.6.0",
+    "@testing-library/vue": "^8.1.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^25.0.1",
+    "@vitejs/plugin-vue": "^5.2.1"
   }
 }

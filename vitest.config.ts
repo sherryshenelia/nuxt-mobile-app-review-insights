@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitest/config'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  plugins: [vue()],
   test: {
     globals: true,
-    environment: 'node',
+    environment: 'jsdom',
+    setupFiles: ['./tests/setup.ts'],
     coverage: {
       reporter: ['text', 'json', 'html'],
       exclude: [
@@ -12,8 +15,13 @@ export default defineConfig({
         'dist/',
         '**/*.d.ts',
         'coverage/',
-        'vitest.config.ts'
+        'vitest.config.ts',
+        'tests/setup.ts',
+        'tests/mocks/**'
       ]
     }
+  },
+  esbuild: {
+    target: 'node14'
   }
 })
