@@ -4,6 +4,10 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "build:netlify": "npm run test:run && npm run build:production",
+    "build:production": "nuxt build",
+    "build:preview": "npm run test:mock && nuxt build",
+    "build:staging": "npm run test:run && nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -16,7 +20,10 @@
     "test:mock": "vitest run tests/api/mock-simple.test.js --config=vitest.config.simple.js",
     "test:mock-advanced": "vitest run tests/api/mock-api.test.ts tests/components/dashboard-mock.test.ts",
     "test:components": "vitest run tests/components/",
-    "test:watch": "vitest --watch"
+    "test:integration": "RUN_INTEGRATION_TESTS=true vitest run tests/integration/",
+    "test:watch": "vitest --watch",
+    "contract:generate": "node scripts/generate-contract.js",
+    "validate:deployment": "node scripts/validate-deployment.js"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
@@ -43,6 +50,7 @@
     "@testing-library/vue": "^8.1.0",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^25.0.1",
-    "@vitejs/plugin-vue": "^5.2.1"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "ajv": "^8.17.1"
   }
 }

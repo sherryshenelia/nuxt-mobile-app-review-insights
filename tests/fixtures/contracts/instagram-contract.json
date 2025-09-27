@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-15T00:00:00Z",
+  "request": {
+    "method": "POST",
+    "url": "/api/reviews",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "appName": "Instagram"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "appInfo": {
+        "foundApps": {
+          "ios": {
+            "id": "389801252",
+            "name": "Instagram",
+            "rating": 4.1,
+            "ratingCount": 2500000,
+            "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2c/4c/5c/2c4c5c5c-2c4c-5c2c-4c5c-2c4c5c2c4c5c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+            "developer": "Instagram, Inc.",
+            "price": "Free"
+          },
+          "android": {
+            "id": "com.instagram.android",
+            "name": "Instagram",
+            "rating": 3.9,
+            "ratingCount": 50000000,
+            "icon": "https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fIGn30iqbE0wdPYJ0pw",
+            "developer": "Instagram",
+            "price": "Free"
+          }
+        }
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "date": "2024-01-15",
+          "title": "Love this app!",
+          "content": "Instagram is amazing for sharing photos and connecting with friends. The stories feature is fantastic!",
+          "sentiment": "positive",
+          "source": "ios"
+        },
+        {
+          "rating": 2,
+          "date": "2024-01-14",
+          "title": "Too many ads",
+          "content": "The app has become too cluttered with advertisements. It's hard to see actual content from friends.",
+          "sentiment": "negative",
+          "source": "android"
+        }
+      ],
+      "summary": {
+        "ios": 50,
+        "android": 50,
+        "sentimentDistribution": {
+          "positive": 35,
+          "neutral": 30,
+          "negative": 35
+        },
+        "ratingDistribution": {
+          "5": 20,
+          "4": 25,
+          "3": 20,
+          "2": 15,
+          "1": 20
+        }
+      }
+    }
+  },
+  "schema": {
+    "type": "object",
+    "required": ["appInfo", "reviews", "summary"],
+    "properties": {
+      "appInfo": {
+        "type": "object",
+        "required": ["foundApps"],
+        "properties": {
+          "foundApps": {
+            "type": "object",
+            "required": ["ios", "android"],
+            "properties": {
+              "ios": {
+                "type": "object",
+                "required": ["name", "rating"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "rating": { "type": "number", "minimum": 0, "maximum": 5 }
+                }
+              },
+              "android": {
+                "type": "object",
+                "required": ["name", "rating"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "rating": { "type": "number", "minimum": 0, "maximum": 5 }
+                }
+              }
+            }
+          }
+        }
+      },
+      "reviews": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["rating", "date", "title", "content", "sentiment", "source"],
+          "properties": {
+            "rating": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "date": { "type": "string" },
+            "title": { "type": "string" },
+            "content": { "type": "string" },
+            "sentiment": { "enum": ["positive", "neutral", "negative"] },
+            "source": { "enum": ["ios", "android"] }
+          }
+        }
+      },
+      "summary": {
+        "type": "object",
+        "required": ["sentimentDistribution", "ratingDistribution"],
+        "properties": {
+          "sentimentDistribution": {
+            "type": "object",
+            "required": ["positive", "neutral", "negative"],
+            "properties": {
+              "positive": { "type": "integer", "minimum": 0 },
+              "neutral": { "type": "integer", "minimum": 0 },
+              "negative": { "type": "integer", "minimum": 0 }
+            }
+          },
+          "ratingDistribution": {
+            "type": "object",
+            "required": ["5", "4", "3", "2", "1"],
+            "properties": {
+              "5": { "type": "integer", "minimum": 0 },
+              "4": { "type": "integer", "minimum": 0 },
+              "3": { "type": "integer", "minimum": 0 },
+              "2": { "type": "integer", "minimum": 0 },
+              "1": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

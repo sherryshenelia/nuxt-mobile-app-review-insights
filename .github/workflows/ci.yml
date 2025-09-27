@@ -1,0 +1,263 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  NODE_VERSION: '18'
+  CACHE_TTL: 86400000
+  API_COUNTRY: 'us'
+
+jobs:
+  # 🚀 STAGE 1: Fast Feedback Loop (Every Commit)
+  unit-tests:
+    name: 🧪 Unit & Static Data Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🧪 Run unit tests with static data
+        run: npm run test:run
+
+      - name: 🎭 Run mock API tests
+        run: npm run test:mock
+
+      - name: 📊 Generate test coverage
+        run: npm run test:coverage
+
+      - name: 📈 Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage/lcov.info
+          fail_ci_if_error: true
+
+  # 🔍 STAGE 2: Integration Validation (PR/Merge)
+  integration-tests:
+    name: 🔗 Integration & Contract Tests
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🏗️ Build application
+        run: npm run build
+
+      - name: 🚀 Start application server
+        run: |
+          npm run preview &
+          sleep 10
+        env:
+          NODE_ENV: production
+
+      - name: 🔗 Run API contract tests
+        run: npm run test:contract
+        timeout-minutes: 5
+
+      - name: 🎭 Run component integration tests
+        run: npm run test:components
+
+      - name: 📋 Validate API response schemas
+        run: |
+          # Test actual API responses match expected schemas
+          curl -X POST http://localhost:3000/api/reviews \
+            -H "Content-Type: application/json" \
+            -d '{"appName":"Instagram"}' \
+            -o test-response.json
+          
+          # Validate response structure
+          node -e "
+            const response = require('./test-response.json');
+            const assert = require('assert');
+            assert(response.appInfo, 'Missing appInfo');
+            assert(response.reviews, 'Missing reviews');
+            assert(response.summary, 'Missing summary');
+            console.log('✅ API contract validation passed');
+          "
+
+  # 🎯 STAGE 3: Release Validation (Pre-deployment)
+  release-tests:
+    name: 🚀 Release Integration Tests
+    runs-on: ubuntu-latest
+    needs: [unit-tests, integration-tests]
+    if: github.ref == 'refs/heads/main'
+    environment: staging
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🏗️ Build for production
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: 🚀 Deploy to staging
+        run: |
+          # Deploy to staging environment (Netlify/Vercel/etc.)
+          npx netlify-cli deploy --build --context=staging
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: ⏳ Wait for deployment
+        run: sleep 30
+
+      - name: 🔍 Run end-to-end tests against staging
+        run: |
+          # Test real API integration on staging
+          STAGING_URL="https://staging--${{ secrets.NETLIFY_SITE_ID }}.netlify.app"
+          
+          # Test multiple apps
+          for app in "Instagram" "TikTok" "WhatsApp"; do
+            echo "Testing $app..."
+            response=$(curl -s -X POST "$STAGING_URL/api/reviews" \
+              -H "Content-Type: application/json" \
+              -d "{\"appName\":\"$app\"}")
+            
+            # Validate response
+            echo "$response" | jq -e '.appInfo.foundApps.ios.name' > /dev/null
+            echo "$response" | jq -e '.reviews | length > 0' > /dev/null
+            echo "✅ $app test passed"
+          done
+
+      - name: 📊 Performance testing
+        run: |
+          # Test API performance
+          STAGING_URL="https://staging--${{ secrets.NETLIFY_SITE_ID }}.netlify.app"
+          
+          echo "Testing API performance..."
+          time curl -X POST "$STAGING_URL/api/reviews" \
+            -H "Content-Type: application/json" \
+            -d '{"appName":"Instagram"}' \
+            -w "Response Time: %{time_total}s\n"
+
+      - name: 🚨 Slack notification on failure
+        if: failure()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: failure
+          text: "🚨 Release tests failed for ${{ github.sha }}"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+
+  # 🚀 STAGE 4: Production Deployment
+  deploy-production:
+    name: 🌟 Deploy to Production
+    runs-on: ubuntu-latest
+    needs: release-tests
+    if: github.ref == 'refs/heads/main'
+    environment: production
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🏗️ Build for production
+        run: npm run build
+        env:
+          NODE_ENV: production
+          CACHE_TTL: ${{ env.CACHE_TTL }}
+          API_COUNTRY: ${{ env.API_COUNTRY }}
+
+      - name: 🚀 Deploy to production
+        run: |
+          npx netlify-cli deploy --build --prod
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: 🎉 Success notification
+        uses: 8398a7/action-slack@v3
+        with:
+          status: success
+          text: "🎉 Successfully deployed ${{ github.sha }} to production!"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+
+  # 🚨 STAGE 5: Post-deployment Smoke Tests
+  smoke-tests:
+    name: 🔥 Production Smoke Tests
+    runs-on: ubuntu-latest
+    needs: deploy-production
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: 🔍 Health check
+        run: |
+          PROD_URL="https://imaginative-meerkat-f44fa3.netlify.app"
+          
+          # Test homepage
+          curl -f "$PROD_URL" > /dev/null
+          echo "✅ Homepage accessible"
+          
+          # Test API endpoint
+          response=$(curl -s -X POST "$PROD_URL/api/reviews" \
+            -H "Content-Type: application/json" \
+            -d '{"appName":"Instagram"}')
+          
+          # Validate response structure
+          echo "$response" | jq -e '.appInfo' > /dev/null
+          echo "$response" | jq -e '.reviews' > /dev/null
+          echo "✅ API functional"
+          
+          # Test performance
+          response_time=$(curl -w "%{time_total}" -s -o /dev/null \
+            -X POST "$PROD_URL/api/reviews" \
+            -H "Content-Type: application/json" \
+            -d '{"appName":"Instagram"}')
+          
+          # Ensure response time < 5 seconds
+          if (( $(echo "$response_time < 5.0" | bc -l) )); then
+            echo "✅ Performance OK: ${response_time}s"
+          else
+            echo "❌ Performance issue: ${response_time}s"
+            exit 1
+          fi
+
+      - name: 🚨 Alert on smoke test failure
+        if: failure()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: failure
+          text: "🚨 Production smoke tests failed! Immediate attention required."
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
