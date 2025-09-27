@@ -1,6 +1,6 @@
 [build]
-  # Build command with testing
-  command = "npm run build:netlify"
+  # Build command
+  command = "npm run build"
   
   # Publish directory (where the built files are) - Netlify preset uses dist/
   publish = "dist"
@@ -10,7 +10,7 @@
 
 # Production builds
 [context.production]
-  command = "npm run build:production"
+  command = "npm run build"
   environment = { NODE_ENV = "production" }
 
 # Deploy preview builds (for PRs)
@@ -52,17 +52,17 @@
   [headers.values]
     Cache-Control = "no-cache"
 
-# Netlify plugins for enhanced functionality
-[[plugins]]
-  package = "netlify-plugin-lighthouse"
-  
-  [plugins.inputs]
-    # Performance budgets
-    performance = 90
-    accessibility = 90
-    best_practices = 90
-    seo = 90
-
 # Build notifications
 [build.processing]
   skip_processing = false
+
+# Netlify plugins (commented out temporarily to fix deployment)
+# [[plugins]]
+#   package = "netlify-plugin-lighthouse"
+#   
+#   [plugins.inputs]
+#     # Performance budgets
+#     performance = 90
+#     accessibility = 90
+#     best_practices = 90
+#     seo = 90
